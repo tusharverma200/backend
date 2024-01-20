@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/login', (req, res)=>{
-    res.send('<h1>Welcome to login page</h1>')
+    res.send('<h1>Welcome to new login page</h1>')
 })
 
 app.listen(process.env.PORT, () => {
